@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A01FA1C1EB6298A0033B029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01FA1B1EB6298A0033B029 /* main.m */; };
+		2A01FA1F1EB6298A0033B029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01FA1E1EB6298A0033B029 /* AppDelegate.m */; };
+		2A01FA221EB6298A0033B029 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01FA211EB6298A0033B029 /* ViewController.m */; };
+		2A01FA251EB6298A0033B029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A01FA231EB6298A0033B029 /* Main.storyboard */; };
+		2A01FA271EB6298A0033B029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A01FA261EB6298A0033B029 /* Assets.xcassets */; };
+		2A01FA2A1EB6298A0033B029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A01FA281EB6298A0033B029 /* LaunchScreen.storyboard */; };
+		2A01FA331EB62CAF0033B029 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01FA321EB62CAF0033B029 /* Card.m */; };
+		2ADC3AD11EB774CD00C511DE /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC3AD01EB774CD00C511DE /* Deck.m */; };
+		2AFDEBCE1EB780420048241B /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFDEBCD1EB780420048241B /* PlayingCard.m */; };
+		2AFDEBD11EB8D6B50048241B /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFDEBD01EB8D6B50048241B /* PlayingCardDeck.m */; };
+		2AFDEBD51EBF60B40048241B /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFDEBD41EBF60B40048241B /* CardMatchingGame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A01FA171EB6298A0033B029 /* MC_Standford_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC_Standford_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A01FA1B1EB6298A0033B029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A01FA1D1EB6298A0033B029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A01FA1E1EB6298A0033B029 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A01FA201EB6298A0033B029 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A01FA211EB6298A0033B029 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A01FA241EB6298A0033B029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A01FA261EB6298A0033B029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A01FA291EB6298A0033B029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A01FA2B1EB6298A0033B029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A01FA311EB62CAF0033B029 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		2A01FA321EB62CAF0033B029 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		2ADC3ACF1EB774CD00C511DE /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		2ADC3AD01EB774CD00C511DE /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		2AFDEBCC1EB780420048241B /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		2AFDEBCD1EB780420048241B /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		2AFDEBCF1EB8D6B50048241B /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		2AFDEBD01EB8D6B50048241B /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		2AFDEBD31EBF60B40048241B /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		2AFDEBD41EBF60B40048241B /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A01FA141EB6298A0033B029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A01FA0E1EB6298A0033B029 = {
+			isa = PBXGroup;
+			children = (
+				2A01FA191EB6298A0033B029 /* MC_Standford_01 */,
+				2A01FA181EB6298A0033B029 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A01FA181EB6298A0033B029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A01FA171EB6298A0033B029 /* MC_Standford_01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A01FA191EB6298A0033B029 /* MC_Standford_01 */ = {
+			isa = PBXGroup;
+			children = (
+				2AFDEBD21EBB790A0048241B /* Model */,
+				2A01FA1D1EB6298A0033B029 /* AppDelegate.h */,
+				2A01FA1E1EB6298A0033B029 /* AppDelegate.m */,
+				2A01FA201EB6298A0033B029 /* ViewController.h */,
+				2A01FA211EB6298A0033B029 /* ViewController.m */,
+				2A01FA231EB6298A0033B029 /* Main.storyboard */,
+				2A01FA261EB6298A0033B029 /* Assets.xcassets */,
+				2A01FA281EB6298A0033B029 /* LaunchScreen.storyboard */,
+				2A01FA2B1EB6298A0033B029 /* Info.plist */,
+				2A01FA1A1EB6298A0033B029 /* Supporting Files */,
+			);
+			path = MC_Standford_01;
+			sourceTree = "<group>";
+		};
+		2A01FA1A1EB6298A0033B029 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A01FA1B1EB6298A0033B029 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AFDEBD21EBB790A0048241B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A01FA311EB62CAF0033B029 /* Card.h */,
+				2A01FA321EB62CAF0033B029 /* Card.m */,
+				2ADC3ACF1EB774CD00C511DE /* Deck.h */,
+				2ADC3AD01EB774CD00C511DE /* Deck.m */,
+				2AFDEBCC1EB780420048241B /* PlayingCard.h */,
+				2AFDEBCD1EB780420048241B /* PlayingCard.m */,
+				2AFDEBCF1EB8D6B50048241B /* PlayingCardDeck.h */,
+				2AFDEBD01EB8D6B50048241B /* PlayingCardDeck.m */,
+				2AFDEBD31EBF60B40048241B /* CardMatchingGame.h */,
+				2AFDEBD41EBF60B40048241B /* CardMatchingGame.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A01FA161EB6298A0033B029 /* MC_Standford_01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A01FA2E1EB6298A0033B029 /* Build configuration list for PBXNativeTarget "MC_Standford_01" */;
+			buildPhases = (
+				2A01FA131EB6298A0033B029 /* Sources */,
+				2A01FA141EB6298A0033B029 /* Frameworks */,
+				2A01FA151EB6298A0033B029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MC_Standford_01;
+			productName = MC_Standford_01;
+			productReference = 2A01FA171EB6298A0033B029 /* MC_Standford_01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A01FA0F1EB6298A0033B029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tiny;
+				TargetAttributes = {
+					2A01FA161EB6298A0033B029 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VV4W6GA3QX;
+					};
+				};
+			};
+			buildConfigurationList = 2A01FA121EB6298A0033B029 /* Build configuration list for PBXProject "MC_Standford_01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A01FA0E1EB6298A0033B029;
+			productRefGroup = 2A01FA181EB6298A0033B029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A01FA161EB6298A0033B029 /* MC_Standford_01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A01FA151EB6298A0033B029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A01FA2A1EB6298A0033B029 /* LaunchScreen.storyboard in Resources */,
+				2A01FA271EB6298A0033B029 /* Assets.xcassets in Resources */,
+				2A01FA251EB6298A0033B029 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A01FA131EB6298A0033B029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFDEBCE1EB780420048241B /* PlayingCard.m in Sources */,
+				2ADC3AD11EB774CD00C511DE /* Deck.m in Sources */,
+				2A01FA221EB6298A0033B029 /* ViewController.m in Sources */,
+				2A01FA1F1EB6298A0033B029 /* AppDelegate.m in Sources */,
+				2AFDEBD51EBF60B40048241B /* CardMatchingGame.m in Sources */,
+				2AFDEBD11EB8D6B50048241B /* PlayingCardDeck.m in Sources */,
+				2A01FA1C1EB6298A0033B029 /* main.m in Sources */,
+				2A01FA331EB62CAF0033B029 /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A01FA231EB6298A0033B029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A01FA241EB6298A0033B029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A01FA281EB6298A0033B029 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A01FA291EB6298A0033B029 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A01FA2C1EB6298A0033B029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A01FA2D1EB6298A0033B029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A01FA2F1EB6298A0033B029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MC_Standford_01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Tiny.F.MC-Standford-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A01FA301EB6298A0033B029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MC_Standford_01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Tiny.F.MC-Standford-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A01FA121EB6298A0033B029 /* Build configuration list for PBXProject "MC_Standford_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A01FA2C1EB6298A0033B029 /* Debug */,
+				2A01FA2D1EB6298A0033B029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A01FA2E1EB6298A0033B029 /* Build configuration list for PBXNativeTarget "MC_Standford_01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A01FA2F1EB6298A0033B029 /* Debug */,
+				2A01FA301EB6298A0033B029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A01FA0F1EB6298A0033B029 /* Project object */;
+}
